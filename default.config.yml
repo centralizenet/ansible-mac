@@ -1,0 +1,30 @@
+git_email: github@allenofmn.com
+
+homebrew_installed_packages:
+  - terraform
+  - postgresql
+  - yarn
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - iterm2
+  - slack
+
+install_inconsolata: true
+install_rvm: true
+install_oh_my_zsh: true
+
+configure_dotfiles: true
+dotfiles_repo: git@github.com:centralize/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .osx
+
+configure_osx: true
+osx_script: "~/.osx --no-restart"
