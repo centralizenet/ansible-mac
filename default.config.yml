@@ -3,6 +3,7 @@ git_email: github@allenofmn.com
 homebrew_installed_packages:
   - terraform
   - postgresql
+  - npm
   - yarn
 
 homebrew_taps:
