@@ -1,4 +1,5 @@
-git_email: github@allenofmn.com
+full_name: Your Name
+git_email: your@chromehero.com
 
 homebrew_installed_packages:
   - terraform
