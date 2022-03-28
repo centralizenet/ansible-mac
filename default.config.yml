@@ -18,9 +18,9 @@ homebrew_cask_apps:
 
 install_inconsolata: true
 install_rvm: true
-install_oh_my_zsh: true
+install_oh_my_zsh: false
 
-configure_dotfiles: true
+configure_dotfiles: false
 dotfiles_repo: git@github.com:centralize/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/dotfiles
@@ -28,5 +28,5 @@ dotfiles_files:
   - .zshrc
   - .osx
 
-configure_osx: true
+configure_osx: false
 osx_script: "~/.osx --no-restart"
